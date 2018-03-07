@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TabsView"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="daB-XM-gf2" customClass="TabsView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rMa-qU-kha">
+                    <rect key="frame" x="0.0" y="0.0" width="125" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="4dH-4Q-v4M"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                    <state key="normal" title="STORIES">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="actionStoriesButton:" destination="daB-XM-gf2" eventType="touchUpInside" id="iHd-M6-YdK"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IwY-PR-exK">
+                    <rect key="frame" x="125" y="0.0" width="125" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="daH-go-qeO"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                    <state key="normal" title="VIDEO">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="actionVideoButton:" destination="daB-XM-gf2" eventType="touchUpInside" id="PuI-AP-nkQ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vV0-Sb-U8O">
+                    <rect key="frame" x="250" y="0.0" width="125" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="bJu-vr-4vP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                    <state key="normal" title="FAVOURITES">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="actionFavoriteButton:" destination="daB-XM-gf2" eventType="touchUpInside" id="ATC-Xy-KO0"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="IwY-PR-exK" firstAttribute="width" secondItem="rMa-qU-kha" secondAttribute="width" id="0dt-si-dNw"/>
+                <constraint firstItem="vV0-Sb-U8O" firstAttribute="leading" secondItem="IwY-PR-exK" secondAttribute="trailing" id="FvK-lf-OUn"/>
+                <constraint firstItem="vV0-Sb-U8O" firstAttribute="trailing" secondItem="EhZ-ck-0Tl" secondAttribute="trailing" id="GTr-tS-evx"/>
+                <constraint firstItem="vV0-Sb-U8O" firstAttribute="top" secondItem="EhZ-ck-0Tl" secondAttribute="top" id="I0w-Ue-Jp4"/>
+                <constraint firstItem="rMa-qU-kha" firstAttribute="bottom" secondItem="EhZ-ck-0Tl" secondAttribute="bottom" id="Jbf-E2-pd6"/>
+                <constraint firstItem="IwY-PR-exK" firstAttribute="top" secondItem="EhZ-ck-0Tl" secondAttribute="top" id="Tgh-b1-wAc"/>
+                <constraint firstItem="rMa-qU-kha" firstAttribute="leading" secondItem="EhZ-ck-0Tl" secondAttribute="leading" id="V4h-jY-gZX"/>
+                <constraint firstItem="vV0-Sb-U8O" firstAttribute="width" secondItem="rMa-qU-kha" secondAttribute="width" id="ZGq-pL-RjI"/>
+                <constraint firstItem="IwY-PR-exK" firstAttribute="bottom" secondItem="EhZ-ck-0Tl" secondAttribute="bottom" id="efr-7N-xlN"/>
+                <constraint firstItem="rMa-qU-kha" firstAttribute="top" secondItem="EhZ-ck-0Tl" secondAttribute="top" id="ijM-UK-MSU"/>
+                <constraint firstItem="IwY-PR-exK" firstAttribute="leading" secondItem="rMa-qU-kha" secondAttribute="trailing" id="jC8-ol-0SR"/>
+                <constraint firstItem="vV0-Sb-U8O" firstAttribute="bottom" secondItem="EhZ-ck-0Tl" secondAttribute="bottom" id="oaV-RO-Uwb"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="EhZ-ck-0Tl"/>
+            <connections>
+                <outletCollection property="collectionButtons" destination="rMa-qU-kha" id="MN7-ed-0bN"/>
+                <outletCollection property="collectionButtons" destination="IwY-PR-exK" id="Oaa-c6-krY"/>
+                <outletCollection property="collectionButtons" destination="vV0-Sb-U8O" id="vGZ-Kg-Z3h"/>
+            </connections>
+            <point key="canvasLocation" x="17.5" y="124"/>
+        </view>
+    </objects>
+</document>

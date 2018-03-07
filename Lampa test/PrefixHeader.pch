@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  Lampa test
+//
+//  Created by Admin on 05.03.18.
+//  Copyright © 2018 Tsvigun Aleksander. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define HEIGHT_TABS_BAR 60
+#define HEIGHT_HEADER_CELL 240
+#define HEIGHT_IMAGE_CELL 320
+#define HEIGHT_CELL 100
+#define UPDATE_INTERVAL 0.1
+#define BASEURL "http://allcom.lampawork.com/api/v1.0/products/"
+
+#define RGB(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue: b/255.0 alpha:1.0]
+#define BLUE_COLOR RGB(0, 146, 237)
+#define LIGHT_GRAY_COLOR RGB(236, 236, 236)
+
+#endif /* PrefixHeader_pch */

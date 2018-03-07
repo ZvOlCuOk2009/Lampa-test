@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82178048E6276C979649C905 /* libPods-Lampa test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E349FE5DD06255CED94F43 /* libPods-Lampa test.a */; };
 		8408EDED204DA65D009FA188 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8408EDEC204DA65D009FA188 /* AppDelegate.m */; };
 		8408EDF0204DA65D009FA188 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8408EDEF204DA65D009FA188 /* ViewController.m */; };
 		8408EDF3204DA65D009FA188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8408EDF1204DA65D009FA188 /* Main.storyboard */; };
 		8408EDF5204DA65D009FA188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8408EDF4204DA65D009FA188 /* Assets.xcassets */; };
 		8408EDF8204DA65D009FA188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8408EDF6204DA65D009FA188 /* LaunchScreen.storyboard */; };
 		8408EDFB204DA65D009FA188 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8408EDFA204DA65D009FA188 /* main.m */; };
+		8408EE07204DD5FA009FA188 /* TabsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8408EE06204DD5FA009FA188 /* TabsView.m */; };
+		8408EE09204DD767009FA188 /* TabsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8408EE08204DD767009FA188 /* TabsView.xib */; };
+		8408EE0D204DEEFA009FA188 /* TransportSerice.m in Sources */ = {isa = PBXBuildFile; fileRef = 8408EE0C204DEEFA009FA188 /* TransportSerice.m */; };
+		8408EE11204DF42D009FA188 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 8408EE10204DF42D009FA188 /* Item.m */; };
+		8408EE15204DF636009FA188 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8408EE14204DF636009FA188 /* Parser.m */; };
+		8409C7F4204E8FA9003290E5 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8409C7F3204E8FA9003290E5 /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		53C1D1E4EB9CF11D407D9518 /* Pods-Lampa test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lampa test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lampa test/Pods-Lampa test.release.xcconfig"; sourceTree = "<group>"; };
+		68E349FE5DD06255CED94F43 /* libPods-Lampa test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lampa test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8408EDE8204DA65D009FA188 /* Lampa test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lampa test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8408EDEB204DA65D009FA188 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8408EDEC204DA65D009FA188 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +35,19 @@
 		8408EDF7204DA65D009FA188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8408EDF9204DA65D009FA188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8408EDFA204DA65D009FA188 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8408EE01204DD510009FA188 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8408EE05204DD5FA009FA188 /* TabsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabsView.h; sourceTree = "<group>"; };
+		8408EE06204DD5FA009FA188 /* TabsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabsView.m; sourceTree = "<group>"; };
+		8408EE08204DD767009FA188 /* TabsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabsView.xib; sourceTree = "<group>"; };
+		8408EE0B204DEEFA009FA188 /* TransportSerice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransportSerice.h; sourceTree = "<group>"; };
+		8408EE0C204DEEFA009FA188 /* TransportSerice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransportSerice.m; sourceTree = "<group>"; };
+		8408EE0F204DF42D009FA188 /* Item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		8408EE10204DF42D009FA188 /* Item.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		8408EE13204DF636009FA188 /* Parser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		8408EE14204DF636009FA188 /* Parser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
+		8409C7F2204E8FA9003290E5 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		8409C7F3204E8FA9003290E5 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		DE9AC854FDACE6832E0BAF0F /* Pods-Lampa test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lampa test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lampa test/Pods-Lampa test.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82178048E6276C979649C905 /* libPods-Lampa test.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23002008AB4A66B58A2D59C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68E349FE5DD06255CED94F43 /* libPods-Lampa test.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		658EBA07DB28417AA68AEBD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE9AC854FDACE6832E0BAF0F /* Pods-Lampa test.debug.xcconfig */,
+				53C1D1E4EB9CF11D407D9518 /* Pods-Lampa test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8408EDDF204DA65D009FA188 = {
 			isa = PBXGroup;
 			children = (
 				8408EDEA204DA65D009FA188 /* Lampa test */,
 				8408EDE9204DA65D009FA188 /* Products */,
+				658EBA07DB28417AA68AEBD3 /* Pods */,
+				23002008AB4A66B58A2D59C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +100,85 @@
 		8408EDEA204DA65D009FA188 /* Lampa test */ = {
 			isa = PBXGroup;
 			children = (
-				8408EDEB204DA65D009FA188 /* AppDelegate.h */,
-				8408EDEC204DA65D009FA188 /* AppDelegate.m */,
-				8408EDEE204DA65D009FA188 /* ViewController.h */,
-				8408EDEF204DA65D009FA188 /* ViewController.m */,
+				8408EE02204DD5A3009FA188 /* App */,
+				8408EE0E204DF416009FA188 /* Model */,
+				8408EE12204DF60A009FA188 /* Parser */,
+				8408EE0A204DEE54009FA188 /* Service */,
+				8408EE04204DD5CE009FA188 /* Custom */,
+				8409C7F1204E8F8B003290E5 /* Cell */,
+				8408EE03204DD5BC009FA188 /* Controller */,
 				8408EDF1204DA65D009FA188 /* Main.storyboard */,
 				8408EDF4204DA65D009FA188 /* Assets.xcassets */,
 				8408EDF6204DA65D009FA188 /* LaunchScreen.storyboard */,
+				8408EE01204DD510009FA188 /* PrefixHeader.pch */,
 				8408EDF9204DA65D009FA188 /* Info.plist */,
 				8408EDFA204DA65D009FA188 /* main.m */,
 			);
 			path = "Lampa test";
+			sourceTree = "<group>";
+		};
+		8408EE02204DD5A3009FA188 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8408EDEB204DA65D009FA188 /* AppDelegate.h */,
+				8408EDEC204DA65D009FA188 /* AppDelegate.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8408EE03204DD5BC009FA188 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8408EDEE204DA65D009FA188 /* ViewController.h */,
+				8408EDEF204DA65D009FA188 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8408EE04204DD5CE009FA188 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				8408EE05204DD5FA009FA188 /* TabsView.h */,
+				8408EE06204DD5FA009FA188 /* TabsView.m */,
+				8408EE08204DD767009FA188 /* TabsView.xib */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		8408EE0A204DEE54009FA188 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8408EE0B204DEEFA009FA188 /* TransportSerice.h */,
+				8408EE0C204DEEFA009FA188 /* TransportSerice.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8408EE0E204DF416009FA188 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8408EE0F204DF42D009FA188 /* Item.h */,
+				8408EE10204DF42D009FA188 /* Item.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8408EE12204DF60A009FA188 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				8408EE13204DF636009FA188 /* Parser.h */,
+				8408EE14204DF636009FA188 /* Parser.m */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		8409C7F1204E8F8B003290E5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8409C7F2204E8FA9003290E5 /* TableViewCell.h */,
+				8409C7F3204E8FA9003290E5 /* TableViewCell.m */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8408EDFE204DA65D009FA188 /* Build configuration list for PBXNativeTarget "Lampa test" */;
 			buildPhases = (
+				5A171B3F8F3B41B896FFD368 /* [CP] Check Pods Manifest.lock */,
 				8408EDE4204DA65D009FA188 /* Sources */,
 				8408EDE5204DA65D009FA188 /* Frameworks */,
 				8408EDE6204DA65D009FA188 /* Resources */,
+				FCB3AE60ED2BED6FB8EE2AB1 /* [CP] Embed Pods Frameworks */,
+				BD59FE93C9CB10191839C35D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,19 +244,79 @@
 			files = (
 				8408EDF8204DA65D009FA188 /* LaunchScreen.storyboard in Resources */,
 				8408EDF5204DA65D009FA188 /* Assets.xcassets in Resources */,
+				8408EE09204DD767009FA188 /* TabsView.xib in Resources */,
 				8408EDF3204DA65D009FA188 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5A171B3F8F3B41B896FFD368 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lampa test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD59FE93C9CB10191839C35D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Lampa test/Pods-Lampa test-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lampa test/Pods-Lampa test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCB3AE60ED2BED6FB8EE2AB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lampa test/Pods-Lampa test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8408EDE4204DA65D009FA188 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8408EE11204DF42D009FA188 /* Item.m in Sources */,
 				8408EDF0204DA65D009FA188 /* ViewController.m in Sources */,
 				8408EDFB204DA65D009FA188 /* main.m in Sources */,
+				8408EE0D204DEEFA009FA188 /* TransportSerice.m in Sources */,
+				8408EE07204DD5FA009FA188 /* TabsView.m in Sources */,
+				8409C7F4204E8FA9003290E5 /* TableViewCell.m in Sources */,
+				8408EE15204DF636009FA188 /* Parser.m in Sources */,
 				8408EDED204DA65D009FA188 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,11 +449,13 @@
 		};
 		8408EDFF204DA65D009FA188 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE9AC854FDACE6832E0BAF0F /* Pods-Lampa test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5D7GRV784H;
 				INFOPLIST_FILE = "Lampa test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "project.Lampa-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -290,11 +465,13 @@
 		};
 		8408EE00204DA65D009FA188 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53C1D1E4EB9CF11D407D9518 /* Pods-Lampa test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5D7GRV784H;
 				INFOPLIST_FILE = "Lampa test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "project.Lampa-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
